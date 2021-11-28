@@ -8,7 +8,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: 'uvicorn app.main:app --reload'
+    command: 'uvicorn app.main:app --host 0.0.0.0'
     expose:
       - 8000
 
