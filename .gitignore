@@ -1,3 +1,4 @@
 .venv
 .idea/
-backend/__pycache__/
+app/__pycache__/
+traefik-public-certificates/

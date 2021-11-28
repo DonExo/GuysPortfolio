@@ -6,9 +6,9 @@ volumes:
 services:
   web:
     build:
-      context: ./app
-      dockerfile: Dockerfile.prod
-    command: 'uvicorn backend.main:app --reload'
+      context: .
+      dockerfile: Dockerfile
+    command: 'uvicorn app.main:app --reload'
     expose:
       - 8000
 
