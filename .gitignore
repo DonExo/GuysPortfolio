@@ -2,3 +2,6 @@
 .idea/
 app/__pycache__/
 traefik-public-certificates/
+
+.DS_Store
+frontend/node_modules
